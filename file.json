@@ -1,0 +1,160 @@
+{
+  "acronym": "UML",
+  "version": "2.5.1",
+  "title": "Unified Modeling Language",
+  "description": "A specification defining a graphical language for visualizing, specifying, constructing, and documenting the artifacts of distributed object systems.",
+  "documentStatus": "FORMAL",
+  "publicationDate": "2017-12-01T05:00:00.000+00:00",
+  "iprMode": "RF_LIMITED",
+  "url": "https://www.omg.org/spec/UML/2.5.1/About-UML",
+  "entries": [
+    {
+      "omgFileId": "formal/17-12-05",
+      "description": "Specification",
+      "role": "SPECIFICATION",
+      "type": "NORMATIVE",
+      "format": "PDF",
+      "url": "https://www.omg.org/spec/UML/2.5.1/PDF"
+    },
+    {
+      "omgFileId": "formal/17-12-06",
+      "description": "Specification changebar",
+      "role": "SPECIFICATION_CHANGEBAR",
+      "type": "INFORMATIVE",
+      "format": "PDF",
+      "url": "https://www.omg.org/spec/UML/2.5.1/PDF/changebar"
+    },
+    {
+      "omgFileId": "ptc/18-01-01",
+      "description": "UML 2.5.1 Abstract Syntax Metamodel",
+      "role": "MACHINE_CONSUMABLE",
+      "type": "NORMATIVE",
+      "format": "XMI",
+      "url": "https://www.omg.org/spec/UML/20161101/UML.xmi"
+    },
+    {
+      "omgFileId": "ptc/18-01-02",
+      "description": "UML 2.5.1 Primitive Types",
+      "role": "MACHINE_CONSUMABLE",
+      "type": "NORMATIVE",
+      "format": "XMI",
+      "url": "https://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi"
+    },
+    {
+      "omgFileId": "ptc/18-01-03",
+      "description": "UML 2.5.1 Standard Profile",
+      "role": "MACHINE_CONSUMABLE",
+      "type": "NORMATIVE",
+      "format": "XMI",
+      "url": "https://www.omg.org/spec/UML/20161101/StandardProfile.xmi"
+    },
+    {
+      "omgFileId": "ptc/18-01-04",
+      "description": "UML 2.5.1 Diagram Interchange Metamodel",
+      "role": "MACHINE_CONSUMABLE",
+      "type": "NORMATIVE",
+      "format": "XMI",
+      "url": "https://www.omg.org/spec/UML/20161101/UMLDI.xmi"
+    }
+  ],
+  "organizations": [],
+  "categories": [
+    {
+      "id": "modeling",
+      "name": "Modeling",
+      "url": "https://www.omg.org/spec/category/modeling/About-modeling"
+    },
+    {
+      "id": "software-engineering",
+      "name": "Software Engineering",
+      "url": "https://www.omg.org/spec/category/software-engineering/About-software-engineering"
+    },
+    {
+      "id": "platform",
+      "name": "Platform",
+      "url": "https://www.omg.org/spec/category/platform/About-platform"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "abstraction",
+      "name": "Abstraction",
+      "url": "https://www.omg.org/spec/keyword/abstraction/About-abstraction"
+    },
+    {
+      "id": "action-sequence",
+      "name": "Action Sequence",
+      "url": "https://www.omg.org/spec/keyword/action-sequence/About-action-sequence"
+    },
+    {
+      "id": "action-state",
+      "name": "Action State",
+      "url": "https://www.omg.org/spec/keyword/action-state/About-action-state"
+    },
+    {
+      "id": "activity-graph",
+      "name": "Activity Graph",
+      "url": "https://www.omg.org/spec/keyword/activity-graph/About-activity-graph"
+    },
+    {
+      "id": "architecture",
+      "name": "Architecture",
+      "url": "https://www.omg.org/spec/keyword/architecture/About-architecture"
+    },
+    {
+      "id": "association",
+      "name": "Association",
+      "url": "https://www.omg.org/spec/keyword/association/About-association"
+    },
+    {
+      "id": "class-diagram",
+      "name": "Class Diagram",
+      "url": "https://www.omg.org/spec/keyword/class-diagram/About-class-diagram"
+    },
+    {
+      "id": "collaboration-diagram",
+      "name": "Collaboration Diagram",
+      "url": "https://www.omg.org/spec/keyword/collaboration-diagram/About-collaboration-diagram"
+    },
+    {
+      "id": "component-diagram",
+      "name": "Component Diagram",
+      "url": "https://www.omg.org/spec/keyword/component-diagram/About-component-diagram"
+    },
+    {
+      "id": "control-flow",
+      "name": "Control Flow",
+      "url": "https://www.omg.org/spec/keyword/control-flow/About-control-flow"
+    },
+    {
+      "id": "data-flow",
+      "name": "Data Flow",
+      "url": "https://www.omg.org/spec/keyword/data-flow/About-data-flow"
+    },
+    {
+      "id": "deployment-diagram",
+      "name": "Deployment Diagram",
+      "url": "https://www.omg.org/spec/keyword/deployment-diagram/About-deployment-diagram"
+    },
+    {
+      "id": "execution",
+      "name": "Execution",
+      "url": "https://www.omg.org/spec/keyword/execution/About-execution"
+    },
+    {
+      "id": "implementation",
+      "name": "Implementation",
+      "url": "https://www.omg.org/spec/keyword/implementation/About-implementation"
+    },
+    {
+      "id": "pins",
+      "name": "Pins",
+      "url": "https://www.omg.org/spec/keyword/pins/About-pins"
+    },
+    {
+      "id": "procedure",
+      "name": "Procedure",
+      "url": "https://www.omg.org/spec/keyword/procedure/About-procedure"
+    }
+  ]
+}
