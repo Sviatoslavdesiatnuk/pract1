@@ -1,0 +1,14 @@
+@startuml
+
+[*] --> Idle
+
+Idle --> MovingUp : startMotorUp
+MovingUp --> SafeState : ObstacleDetected
+
+Idle --> MovingDown : startMotorDown
+MovingDown --> SafeState : ObstacleDetected
+
+SafeState : entry / stopMotor
+SafeState --> Idle : ResetCommand / clearFaults
+
+@enduml
