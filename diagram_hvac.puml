@@ -1,0 +1,32 @@
+@startuml
+[*] --> Standby
+Standby --> Cooling : TargetTemp < CabinTemp
+Standby --> Heating : TargetTemp > CabinTemp
+
+state Cooling {
+    [*] --> CoolingRun
+    CoolingRun : entry / startCompressor
+}
+
+state Heating {
+    [*] --> HeatingRun
+    HeatingRun : entry / startCompressor
+}
+
+Cooling --> Idle : TemperatureLimitReached / stopCompressor
+Heating --> Idle : TemperatureLimitReached / stopCompressor
+
+Cooling --> SafeState : PressureFault / stopCompressor
+Heating --> SafeState : PressureFault / stopCompressor
+
+state SafeState {
+    [*] --> SafetyLock
+    SafetyLock : entry / stopCompressor
+}
+
+SafeState --> Idle : ResetCommand / clearFaults
+
+Cooling --> Idle : Fault / stopCompressor
+Heating --> Idle : Fault / stopCompressor
+
+@enduml
